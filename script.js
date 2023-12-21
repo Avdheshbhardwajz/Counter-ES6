@@ -11,8 +11,8 @@ str.addEventListener("click", start);
 
 function start() {
   alert("Started");
-  statuss = true;
-  if (statuss) {
+ 
+  if (!statuss) {
     statuss = true;
     id = setInterval(() => {
       counter += 1;
